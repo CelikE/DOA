@@ -1,0 +1,3 @@
+host/__TESTER__.o: src/__TESTER__.cpp src/GraphToolkit.h src/GraphNode.h \
+ src/Edge.h
+	${CXX} -c -o $@ $< ${CXXFLAGS}
